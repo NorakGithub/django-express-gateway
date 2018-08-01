@@ -39,7 +39,7 @@ setup(
     include_package_data=True,
     long_description=readme + '\n\n' + history,
     url='https://github.com/NorakGithub/django_express_gateway',
-    packages=find_packages(include=['django_express_gateway']),
+    packages=find_packages(include=['express_gateway']),
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
