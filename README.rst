@@ -11,7 +11,9 @@ Requirements
 - Django Rest Framework 3.7 or later
 - Requests 2.19 or later
 
-## Installation
+------------
+Installation
+------------
 
 Install with pip
 
@@ -19,7 +21,7 @@ Install with pip
 
     $ pip install django_express_gateway
 
-## Getting Started
-
-
+---------------
+Getting Started
+---------------
 
