@@ -25,6 +25,7 @@ setup_requirements = [
 test_requirements = [
     'pytest',
     'django-test-without-migrations',
+    'responses',
 ]
 
 setup(
