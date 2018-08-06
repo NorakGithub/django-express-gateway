@@ -46,10 +46,16 @@ Add authentication to DRF default authentication settings
         ...
     }
 
-Finally add Centralize Authentication URL and API Key
+Finally add the configuration for Centralize Authentication System.
 
 .. code-block:: python
 
     # Config data should get from environment variable
-    CAS_URL = 'https://mycas-server.com'
-    CAS_API_KEY = 'testingApiKey'
+    EXPRESS_GATEWAY = {
+        'URL': 'https://mycas-server.com',
+        'API_KEY': 'testingApiKey',
+        'ENDPOINTS': {
+            'register': '/auth/user/
+            'token': '/auth/token/',
+        }
+    }
